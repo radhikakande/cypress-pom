@@ -1,0 +1,25 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "cypress page object model framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhikakande/cypress-pom.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Radhika Kande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhikakande/cypress-pom/issues"
+  },
+  "homepage": "https://github.com/radhikakande/cypress-pom#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
