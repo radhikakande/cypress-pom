@@ -1,9 +1,9 @@
 # cypress-pom
 cypress page object model framework 
-1. install cypress
+1. install node and clone the repo
 
     ```
-    npm i --save-dev cypress
+    npm install
 
     ```
 
@@ -24,7 +24,7 @@ cypress page object model framework
     npx cypress run --browser chrome --headed
 
     ```
-5. Tests reports will be created in the reports folder and cypress.config.js has options to add configurations 
+5. Tests reports will be created in the reports folder each file and additional configurations and tweaks can be done in cypress.config.js in reporterOptions 
 
      ```
     const { defineConfig } = require("cypress");
